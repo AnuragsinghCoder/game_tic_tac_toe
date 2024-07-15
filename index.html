@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!--here we are linking css file-->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- here we are linking javascript file-->
+    <script src="tic_tac_toe.js"></script>
+
+  </head>
+  <body>
+    <!--code for title-->
+    <div class="title">
+      <h1>Tic-Tac-Toe</h1>
+    </div>
+    <!--code for start button -->
+    <button class="button" onclick="start()">Start</button>
+    <div class="yourTurn">
+      <div  id="bb1" class="xTurn">
+        <h2>X TURN</h2>
+      </div>
+      <div  id="bb2" class="yTurn">
+        <h2>O TURN</h2>
+      </div>
+    </div>
+    <!--The parent div starting from here-->
+      <div class="parent">
+        <!--The first row starting from here-->
+        <div class="row"id="trow">
+          <div class="f"id="f1" onclick="b1()">
+            <h1 id="ff1" class="fh">.</h1>
+          </div>
+          <div class="f"id="f2" onclick="b2()">
+            <h1 id="ff2"class="fh">.</h1>
+          </div>
+          <div class="f"id="f3" onclick="b3()">
+            <h1 id="ff3"class="fh">.</h1>
+          </div>
+        </div>
+        <!--The second row starting from here-->
+        <div class="row"id="srow">
+
+          <div class="f"id="f4" onclick="b4()">
+            <h1 id="ff4"class="fh">.</h1>
+          </div>
+          <div class="f"id="f5" onclick="b5()">
+            <h1 id="ff5"class="fh">.</h1>
+          </div>
+          <div class="f"id="f6" onclick="b6()">
+            <h1 id="ff6"class="fh">.</h1>
+          </div>
+        <!--The third row starting from here-->
+        </div>
+        <div class="row"id="trow">
+          <div class="f"id="f7" onclick="b7()">
+            <h1 id="ff7"class="fh">.</h1>
+          </div>
+          <div class="f"id="f8" onclick="b8()">
+            <h1 id="ff8"class="fh">.</h1>
+          </div>
+          <div class="f"id="f9" onclick="b9()">
+            <h1 id="ff9"class="fh">.</h1>
+          </div>
+
+        </div>
+      </div>
+          <!--code for result-->
+    <div id="res">
+      <h1></h1>
+    </div>
+    <button class="button2" onclick="refresh()">Restart</button>
+  </body>
+</html>
