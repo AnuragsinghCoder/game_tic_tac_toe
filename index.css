@@ -24,13 +24,13 @@ body{
     color:#1A1A00;
     background-color:rgb(255, 234, 0);
     transition-duration: 0.4s;
-    border: 2px solid #E0115F; /* Pink */
+    border: 2px solid #1A1A00; /* Pink */
     border-radius: 25px;
   }
   
   .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color:#1A1A00;; /* Pink */
+    background-color:#1A1A00; /* Pink */
 
     color: white;
 
@@ -49,12 +49,12 @@ body{
     color:#1A1A00;
     background-color:rgb(255, 234, 0);
     transition-duration: 0.4s;
-    border: 2px solid #E0115F; /* Pink */
+    border: 2px solid #1A1A00;
     border-radius: 25px;
   }
   .button2:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #E0115F; /* Pink */
+    background-color:#1A1A00;
 
     color: white;
 
@@ -64,7 +64,7 @@ body{
     margin-bottom: 0%;
     width: 100%;
    
-    color: rgb(252, 246, 252);
+    color:rgb(255, 234, 0);
 
     align-items: center;
  
@@ -117,35 +117,35 @@ body{
 
 }
 #f1{
-    border-right:5px solid #E0115F;
-    border-bottom:5px solid #E0115F;
+    border-right:5px solid #1A1A00;
+    border-bottom:5px solid #1A1A00;
 }
 #f2{
-    border-right:5px solid #E0115F;
-    border-bottom:5px solid #E0115F;
+    border-right:5px solid #1A1A00;
+    border-bottom:5px solid #1A1A00;
 }
 #f3{
 
-    border-bottom:5px solid #E0115F;
+    border-bottom:5px solid #1A1A00;
 }
 #f4{
-    border-right:5px solid #E0115F;
-    border-bottom:5px solid #E0115F;
+    border-right:5px solid #1A1A00;
+    border-bottom:5px solid #1A1A00;
 }
 #f5{
-    border-right:5px solid #E0115F;
-    border-bottom:5px solid #E0115F;
+    border-right:5px solid #1A1A00;
+    border-bottom:5px solid #1A1A00;
 }
 #f6{
 
-    border-bottom:5px solid #E0115F;
+    border-bottom:5px solid #1A1A00;
 }
 #f7{
-    border-right:5px solid #E0115F;
+    border-right:5px solid #1A1A00;
 
 }
 #f8{
-    border-right:5px solid #E0115F;
+    border-right:5px solid #1A1A00;
 
 }
 
@@ -184,7 +184,7 @@ body{
 }
 
 #res{
-    color: #E0115F;
+    color: #1A1A00;
     background-color: rgb(252, 246, 252);
     font-size: 50px;
     display: flex;
@@ -288,6 +288,7 @@ body{
 
 
    }
+
 
 
 
