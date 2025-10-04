@@ -3,8 +3,8 @@ body{
 }
 .title{
 
-    color:#E0115F ;
-    background-color:rgb(252, 246, 252);
+    color:#1A1A00;
+    background-color:rgb(255, 234, 0);
     display:flex;
     align-items: center;
     justify-content: center;
@@ -21,8 +21,8 @@ body{
     margin-bottom:45%;
     align-items: center;
     justify-content: center;
-    color:#E0115F;
-    background-color:rgb(252, 246, 252);
+    color:#1A1A00;
+    background-color:rgb(255, 234, 0);
     transition-duration: 0.4s;
     border: 2px solid #E0115F; /* Pink */
     border-radius: 25px;
@@ -30,7 +30,7 @@ body{
   
   .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #E0115F; /* Pink */
+    background-color:#1A1A00;; /* Pink */
 
     color: white;
 
@@ -46,8 +46,8 @@ body{
     margin-bottom:45%;
     align-items: center;
     justify-content: center;
-    color:#E0115F;
-    background-color:rgb(252, 246, 252);
+    color:#1A1A00;
+    background-color:rgb(255, 234, 0);
     transition-duration: 0.4s;
     border: 2px solid #E0115F; /* Pink */
     border-radius: 25px;
@@ -97,7 +97,7 @@ body{
     padding-bottom:10%;
     padding-left:10% ;
     padding-right:10%;
-    background-color: rgb(252, 246, 252);
+    background-color: rgb(255, 234, 0);
 }
 .row{
     width: 100%;
@@ -108,7 +108,7 @@ body{
 }
 .f{
 
-    background-color: rgb(252, 246, 252);
+    background-color: rgb(255, 234, 0);
     width: 100%;
 
     
@@ -202,7 +202,7 @@ body{
         margin-bottom: 80px;
     }
     body{
-         background-color:rgb(252, 246, 252);
+         background-color:rgb(255, 234, 0);
     }
     .button{
         font-size: 20px;
@@ -221,7 +221,7 @@ body{
 
   @media only screen and (max-width: 455px) {
     body {
-      background-color:rgb(252, 246, 252);
+      background-color:rgb(255, 234, 0);
     }
     .title{
         font-size: 1.5em;
@@ -288,6 +288,7 @@ body{
 
 
    }
+
 
 
 
